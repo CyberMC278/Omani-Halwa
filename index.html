@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="اكتشف أصالة وتاريخ الحلوى العمانية، رمز الكرم والضيافة في سلطنة عمان. تعرف على أنواعها، فوائدها، وطريقة صناعتها التقليدية.">
+    <title data-i18n="page_title">الحلوى العمانية | أصالة الكرم العماني</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+
+    <!-- شريط التنقل -->
+    <header>
+        <nav class="nav-container">
+            <h1 class="nav-logo" data-i18n="nav_logo">الحلوى العُمانية</h1>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link" data-i18n="nav_home">الرئيسية</a></li>
+                <li><a href="#types" class="nav-link" data-i18n="nav_types">أنواعها</a></li>
+                <li><a href="#making" class="nav-link" data-i18n="nav_making">طريقة الصنع</a></li>
+                <li><a href="#fame" class="nav-link" data-i18n="nav_fame">سر شهرتها</a></li>
+                <li><a href="#benefits" class="nav-link" data-i18n="nav_benefits">فوائدها</a></li>
+            </ul>
+ <div class="nav-actions">
+        <button id="theme-toggle" class="theme-btn" aria-label="تبديل الوضع">
+            <svg class="theme-icon moon-icon" viewBox="0 0 24 24">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+            <svg class="theme-icon sun-icon" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+        </button>
+        
+        <button class="lang-btn" id="langToggle">En</button>
+    </div>
+        </nav>
+    </header>
+
+    <!-- القسم الرئيسي -->
+    <section id="hero" class="hero" style="background-image: url('images/about.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title" data-i18n="hero_title">الحلوى العُمانية</h1>
+            <p class="hero-desc" data-i18n="hero_desc">حكاية أصالة تفوح برائحة الهيل والزعفران، ورمز الكرم العُماني الخالد.</p>
+        </div>
+    </section>
+
+    <main>
+        <!-- 1. التعريف -->
+        <section id="definition" class="definition-section">
+            <h2 class="title" data-i18n="def_title">ما هي الحلوى العمانية؟</h2>
+            <div class="container centered-content">
+                <p class="section-desc">
+                    <strong data-i18n="def_p1_strong">الحلوى العمانية</strong> 
+                    <span data-i18n="def_p1_text">هي طبق تقليدي عريق يمثل عمق الهوية والثقافة العُمانية. تعود صناعتها إلى مئات السنين، وهي ليست مجرد حلوى تؤكل، بل هي جزء لا يتجزأ من عادات الترحيب وحسن الضيافة في السلطنة.</span>
+                </p>
+                <p class="section-desc" data-i18n="def_p2">
+                    تتميز بقوامها المتماسك واللزج ونكهاتها الغنية بالمواد الطبيعية الفريدة. تُقدّم عادةً في المناسبات السعيدة والأعياد والزيارات اليومية، وتصحبها دائماً القهوة العُمانية المُرّة لتصنع توازناً مثالياً في المذاق يعكس دفء البيوت العُمانية.
+                </p>
+                <div class="centered-image-wrapper">
+                    <img src="images/about.jpg" alt="الحلوى العمانية التقليدية" class="responsive-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. الأنواع -->
+        <section id="types" class="types-section section-alt">
+            <h2 class="title" data-i18n="types_title">أشهر أنواع الحلوى العُمانية</h2>
+            <p class="section-desc" data-i18n="types_desc">تتعدد أنواع الحلوى العمانية بحسب المكونات المضافة ونسب الزعفران والسكر المستخدم فيها.</p>
+            <div class="container">
+                <div class="grid-layout">
+                    <div class="card">
+                        <img src="images/black.jpg" alt="الحلوى السوداء العمانية">
+                        <div class="card-body">
+                            <h3 data-i18n="type1_title">الحلوى السوداء</h3>
+                            <p data-i18n="type1_desc">تُصنع باستخدام السكر البني (الأحمر التقليدي) غير المكرر، مما يمنحها لونها الداكن المميز ونكهتها القوية والعميقة التي يعشقها الكثيرون.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/yellow.jpg" alt="الحلوى الصفراء العمانية">
+                        <div class="card-body">
+                            <h3 data-i18n="type2_title">الحلوى الصفراء</h3>
+                            <p data-i18n="type2_desc">تعتمد في صناعتها على السكر الأبيض النقي مع إضافة لمسات متوازنة من الزعفران وماء الورد، وتأتي بقوام ناعم ومذاق معتدل الحلاوة يناسب جميع الأذواق.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. طريقة الصنع -->
+        <section id="making" class="making-section">
+            <h2 class="title" data-i18n="making_title">كيف تُصنع الحلوى العمانية؟</h2>
+            <p class="section-desc" data-i18n="making_desc">صناعة الحلوى فن عريق يتطلب مهارة فائقة وصبرًا طويلاً للحصول على القوام والمذاق المثالي.</p>
+            <div class="container">
+                <div class="ingredients-container">
+                    <h3 data-i18n="ingredients_title">المكونات الأساسية</h3>
+                    <div class="ingredients-grid">
+                        <div class="ingredient-item"><span>💧</span> <span data-i18n="ing_1">الماء النقي</span></div>
+                        <div class="ingredient-item"><span>🍚</span> <span data-i18n="ing_2">النشاء النقي</span></div>
+                        <div class="ingredient-item"><span>🪵</span> <span data-i18n="ing_3">السكر التقليدي</span></div>
+                        <div class="ingredient-item"><span>🧈</span> <span data-i18n="ing_4">السمن البلدي</span></div>
+                        <div class="ingredient-item"><span>🌸</span> <span data-i18n="ing_5">ماء ورد الجبل</span></div>
+                        <div class="ingredient-item"><span>✨</span> <span data-i18n="ing_6">الزعفران والهيل</span></div>
+                        <div class="ingredient-item"><span>🥜</span> <span data-i18n="ing_7">المكسرات الفاخرة</span></div>
+                    </div>
+                </div>
+                <ul class="steps-list">
+                    <li class="step-item">
+                        <div class="step-num">1</div>
+                        <div class="step-content">
+                            <strong data-i18n="step1_title">غلي الماء وإذابة السكر:</strong>
+                            <p data-i18n="step1_desc">يُوضع الماء في قدر نحاسي كبير يُسمى (المرجل) فوق لهب الحطب المستمر، ويضاف السكر ويُحرك حتى يغلي تماماً ويتجانس.</p>
+                        </div>
+                    </li>
+                    <li class="step-item">
+                        <div class="step-num">2</div>
+                        <div class="step-content">
+                            <strong data-i18n="step2_title">إضافة النشاء والتحريك المستمر:</strong>
+                            <p data-i18n="step2_desc">يُذاب النشاء بالماء البارد ويُصب ببطء فوق السكر المغلي، وهنا تبدأ أصعب مرحلة وهي التحريك المستمر دون توقف باستخدام مجداف خشبي كبير لمنع تكتله.</p>
+                        </div>
+                    </li>
+                    <li class="step-item">
+                        <div class="step-num">3</div>
+                        <div class="step-content">
+                            <strong data-i18n="step3_title">إضافة السمن والمطيبات:</strong>
+                            <p data-i18n="step3_desc">بعد أن يبدأ الخليط بالتماسك، يُضاف السمن البلدي تدريجياً ليعطي القوام اللين واللمعان، ثم تُضاف النكهات الساحرة: الهيل، الزعفران، وماء الورد الجبلي.</p>
+                        </div>
+                    </li>
+                    <li class="step-item">
+                        <div class="step-num">4</div>
+                        <div class="step-content">
+                            <strong data-i18n="step4_title">الصب والتزيين بالمكسرات:</strong>
+                            <p data-i18n="step4_desc">تستمر عملية الطبخ من ساعتين إلى ثلاث ساعات حتى ينضج الخليط تماماً، ثم يُصب في أوانٍ دائرية خاصة تُسمى (الديس) ويُزين وجهها بالمكسرات الفاخرة لتبرد وتصبح جاهزة للتقديم.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 4. سر الشهرة -->
+        <section id="fame" class="fame-section section-alt">
+            <h2 class="title" data-i18n="fame_title">لماذا تعد أشهر الأطباق العمانية؟</h2>
+            <p class="section-desc" data-i18n="fame_desc">ترتبط الحلوى العمانية ارتباطًا وثيقًا بالهوية العمانية. فهي تعبر عن كرم صاحب البيت وعمق احترامه لضيوفه.</p>
+            <div class="container">
+                <div class="grid-layout">
+                    <div class="card">
+                        <div class="card-body card-icon-top">
+                            <div class="card-icon">☕</div>
+                            <h3 data-i18n="fame1_title">رمز الترحيب والضيافة</h3>
+                            <p data-i18n="fame1_desc">لا يمكن تقديم القهوة العمانية المرة دون أن تكون الحلوى رفيقتها الأساسية لتخفيف حدة مرارتها وصنع ضيافة متوازنة.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body card-icon-top">
+                            <div class="card-icon">🎉</div>
+                            <h3 data-i18n="fame2_title">حاضرة في كل المناسبات</h3>
+                            <p data-i18n="fame2_desc">تشارك العمانيين في جميع لحظات حياتهم، بدءاً من الأعياد والأعراس الوطنية والدينية وصولاً للمناسبات الاجتماعية اليومية.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body card-icon-top">
+                            <div class="card-icon">🌍</div>
+                            <h3 data-i18n="fame3_title">جذب سياحي واقتصادي</h3>
+                            <p data-i18n="fame3_desc">يحرص زوار وسياح سلطنة عُمان على تذوقها واقتنائها كهدية تذكارية فاخرة تعبر عن نكهات وتاريخ الشرق الساحر.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="centered-image-wrapper fame-image">
+                    <img src="images/fame.jpg" alt="الضيافة العمانية والقهوة" class="responsive-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. الفوائد -->
+        <section id="benefits" class="benefits-section">
+            <h2 class="title" data-i18n="ben_title">فوائد الحلوى العمانية ومكوناتها</h2>
+            <p class="section-desc" data-i18n="ben_desc">تحتوي الحلوى على مكونات طبيعية وصحية تمد الجسم بالطاقة والنشاط عند تناولها باعتدال.</p>
+            <div class="container">
+                <div class="grid-layout">
+                    <div class="card">
+                        <div class="card-body card-icon-top">
+                            <div class="card-icon card-icon-sm">🔥</div>
+                            <h3 data-i18n="ben1_title">طاقة فورية وحيوية</h3>
+                            <p data-i18n="ben1_desc">بفضل وجود السكريات الطبيعية والسمن البلدي، توفر الحلوى للجسم مصدراً سريعاً وبسيطاً للنشاط والدفء.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body card-icon-top">
+                            <div class="card-icon card-icon-sm">🧠</div>
+                            <h3 data-i18n="ben2_title">تحسين المزاج والتركيز</h3>
+                            <p data-i18n="ben2_desc">الزعفران غني بمضادات الأكسدة التي تساعد في تحسين الحالة المزاجية، وتقليل القلق والتوتر الذهني.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body card-icon-top">
+                            <div class="card-icon card-icon-sm">🌱</div>
+                            <h3 data-i18n="ben3_title">تسهيل الهضم ونشاط المعدة</h3>
+                            <p data-i18n="ben3_desc">يحتوي الهيل وماء الورد على زيوت طبيعية تساهم في تهدئة المعدة وتسهيل الهضم بعد الوجبات.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body card-icon-top">
+                            <div class="card-icon card-icon-sm">💪</div>
+                            <h3 data-i18n="ben4_title">دعم العضلات والقلب</h3>
+                            <p data-i18n="ben4_desc">المكسرات كاللوز والكاجو تمد الجسم ببروتينات نباتية، ودهون صحية غير مشبعة تحمي صحة الشرايين.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- التذييل -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo"><span data-i18n="footer_logo_1">الحلوى</span> <span data-i18n="footer_logo_2">العُمانية</span></div>
+            <p class="footer-text" data-i18n="footer_desc">تراث عريق نتوارثه بكل فخر واعتزاز جيلًا بعد جيل.</p>
+            <div class="footer-socials">
+                <a href="https://www.instagram.com/_CyberMC" target="_blank" aria-label="Instagram" class="instagram-link">
+                    <svg class="instagram-icon" viewBox="0 0 24 24">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                </a>
+            </div>
+            <div class="copyright" data-i18n="footer_copy">
+                موقع الحلوى العمانية | جميع الحقوق محفوظة لفريق _CyberMC
+            </div>
+        </div>
+    </footer>
+
+    <!-- استدعاء ملفات الترجمة والجافاسكربت -->
+    <script src="JS/translations.js"></script>
+    <script src="JS/script.js"></script>
+</body>
+</html>
