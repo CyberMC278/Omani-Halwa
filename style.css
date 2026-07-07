@@ -354,6 +354,7 @@ section {
     max-width: 100%;
     height: auto;
     transition: var(--transition);
+    cursor: pointer;
 }
 .definition-image-wrapper img:hover {
     transform: scale(1.03);
@@ -552,6 +553,7 @@ section {
     max-width: 100%;
     height: auto;
     transition: var(--transition);
+    cursor: pointer;
 }
 .fame-image-wrapper img:hover {
     transform: scale(1.03);
